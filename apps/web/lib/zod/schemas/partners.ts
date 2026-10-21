@@ -1032,6 +1032,8 @@ export const deactivatePartnerSchema = z.object({
 
 export const deactivatePartnerApiSchema = partnerIdTenantIdSchema;
 
+export const reactivatePartnerApiSchema = partnerIdTenantIdSchema;
+
 export const deletePartnerSchema = z.object({
   workspaceId: z.string(),
   partnerId: z.string(),

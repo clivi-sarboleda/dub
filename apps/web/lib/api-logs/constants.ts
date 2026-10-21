@@ -39,6 +39,7 @@ export const ROUTE_PATTERNS = [
   "/partners/applications/reject",
   "/partners/ban",
   "/partners/deactivate",
+  "/partners/reactivate",
   "/partners/:partnerId",
   "/partners",
 
